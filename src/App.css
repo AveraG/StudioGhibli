@@ -1,22 +1,44 @@
-.App {
-  text-align: center;
+.filmList {
+  background-image: url('./hayao-miyazaki-1.jpg');
+  height: 28em;
+  background-repeat:no-repeat;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.peopleList {
+  background-image: url('./characters.jpg');
+  height: 28em;
+  background-repeat:no-repeat;
+  background-position: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.backgroundColorFilms {
+  background-color: rgb(6, 45, 46);
 }
 
-.App-link {
-  color: #09d3ac;
+.backgroundColorPeople {
+  background-color: rgb(163, 205, 228);
+}
+
+.textWhite {
+  color: antiquewhite;
+}
+
+.textGrey {
+  color: rgb(80, 80, 80);
+}
+
+.links {
+  float: right;
+  padding: 1em;
+  color:rgb(6, 45, 46);
+  font-weight: bold; 
+  font-size: 1.2em;
+}
+
+.home {
+  background-image: url('./SG_logo.png');
+  height: 40em;
+  background-repeat:no-repeat;
+  background-position: center;
 }
